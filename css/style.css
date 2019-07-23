@@ -1,0 +1,374 @@
+body {
+    background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, black, black 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+
+/*navbar*/
+
+.slid {
+    width: 100%;
+    height: 600px;
+}
+
+#ulNav {
+    margin-left: 20%;
+    margin-top: -0.1px;
+}
+
+#ulNav>li {
+    margin-left: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+}
+
+#ulNav>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ulNav>li>a:hover {
+    color: black;
+}
+
+.navbar {
+    position: fixed;
+    background: rgba(255, 0, 0, .8);
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.bar {
+    width: 100%;
+    height: 60px;
+    z-index: -1;
+}
+
+#incour {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.couing {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    z-index: 99;
+}
+
+
+/*courses*/
+
+#couimg {
+    width: 100%;
+    height: 450px;
+    background-image: url("../res/courses.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#couhaa {
+    font-size: 90px;
+    color: #fff;
+    position: relative;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+    top: 40%;
+}
+
+.course1 {
+    background-image: url(../res/cour1.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.course1:hover {
+    opacity: 0.8;
+}
+
+.btnCour1 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour1:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course2 {
+    background-image: url(../res/cour2.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course2:hover {
+    opacity: 0.8;
+}
+
+.btnCour2 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour2:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course3 {
+    background-image: url(../res/cour3.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course3:hover {
+    opacity: 0.8;
+}
+
+.btnCour3 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour3:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course4 {
+    background-image: url(../res/cour4.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course4:hover {
+    opacity: 0.8;
+}
+
+.btnCour4 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour4:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course5 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../res/cour5.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course5:hover {
+    opacity: 0.8;
+}
+
+.btnCour5 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour5:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course6 {
+    background-image: url(../res/cour6.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course6:hover {
+    opacity: 0.8;
+}
+
+.btnCour6 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour6:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course7 {
+    background-image: url(../res/cour7.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course7:hover {
+    opacity: 0.8;
+}
+
+.btnCour7 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour7:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course8 {
+    background-image: url(../res/cour8.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course8:hover {
+    opacity: 0.8;
+}
+
+.btnCour8 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour8:hover {
+    display: inline !important;
+    opacity: 1;
+}
+
+.course9 {
+    background-image: url(../res/cour9.PNG);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.course9:hover {
+    opacity: 0.8;
+}
+
+.btnCour9 {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    background: none;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.btnCour9:hover {
+    display: inline;
+    opacity: 1;
+}
+
+
+/*contact*/
+
+#submit {
+    color: #fff;
+    background: rgb(63, 147, 226);
+    border-radius: 3px;
+    border: none;
+    padding: 9px 11px;
+    font-size: 15px;
+    width: 9%;
+    text-align: center;
+}
+
+.input {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#textareaa {
+    border-radius: 3px;
+}
+
+#textareaa:focus {
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px;
+    border-color: rgb(102, 175, 233);
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HOME</title>
+    <link rel="icon" href="res/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; background-color:rgba(255, 0, 0, .8);">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./res/logo.png" width="50" height="50" alt="">
+            </a>
+            <a class="navbar-brand" href="./index.html">GO MY CODE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="bar"></div>
+    </header>
+    <div id="couimg">
+        <h1 id="couhaa">courses</h1>
+    </div>
+    <div class="bar"></div>
+    <div class="container">
+        <div align="center" class="row row justify-content-md-center">
+            <div class="course1 col-sm-4 col-lg-4  " style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+            <div class="course2 col-sm-4 col-lg-4  " style="background-position: center;">
+                <a style="text-decoration: none " href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+            <div class="course3  col-sm-4 col-lg-4  " style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+
+        </div><br>
+        <div align="center" class="row row justify-content-md-center">
+            <div class="course4 col-sm-4 col-lg-4" style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+            <div class="course5 col-sm-4 col-lg-4" style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+            <div class="course6 col-sm-4 col-lg-4" style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+        </div> <br>
+        <div align="center" class="row row justify-content-md-center">
+            <div class="course7 col-sm-4 col-lg-4" style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+            <div class="course8 col-sm-4 col-lg-4" style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+            <div class="course9 col-sm-4 col-lg-4" style="background-position: center;">
+                <a style="text-decoration: none" href="#ex1" rel="modal:open"> <button class="btnCour3"> view more</button> </a>
+            </div>
+            <div id="ex1" class="modal">
+                <p style="text-decoration: bold">This is a GoMyCode Track. <br> Each track has its own goal. <br> By adopting this track, you chose your own goal.</p>
+            </div>
+        </div>
+        <div align="center">
+            <p>
+                <h2 style="text-align: center; color: rgb(255, 255, 255)">feedback</h2>
+            </p>
+            <button onclick="bold()">B</button>
+            <button onclick="italyi()">I</button>
+            <button onclick="underline()">underline</button>
+            <select id='selectsize' onchange="sizey()">
+                <option>20px</option>
+                <option >30px</option>
+            </select>
+            <select onchange="font()" id='selectfont'>
+                <option>arial</option>
+                <option >Lucida Sans</option>
+                <option >Pacifico</option>
+            </select>
+            <br> <br>
+            <div class="form-group  col-md-4 mb-3">
+                <textarea class="form-control" id="textareaa" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="bar"></div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+
+</html>
